@@ -60,7 +60,16 @@ h2 {
 
 #computer .far,
 #computer .choice {
-  color: rgb(252, 34, 34);
+  color: red;
+}
+
+#player .far:last-of-type,
+#computer .far:last-of-type {
+  margin-right: 0;
+}
+
+.selected {
+  color: black !important;
 }
 
 .reset-icon {
