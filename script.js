@@ -10,6 +10,12 @@ const playerScissors = document.getElementById('playerScissors');
 const playerLizard = document.getElementById('playerLizard');
 const playerSpock = document.getElementById('playerSpock');
 
+const computerRock = document.getElementById('computerRock');
+const computerPaper = document.getElementById('computerPaper');
+const computerScissors = document.getElementById('computerScissors');
+const computerLizard = document.getElementById('computerLizard');
+const computerSpock = document.getElementById('computerSpock'); 
+
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
   paper: { name: 'Paper', defeats: ['rock', 'spock'] },
