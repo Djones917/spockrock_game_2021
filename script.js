@@ -26,3 +26,7 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
+// Passing Player selection value and styling icons
+function select(playerChoice) {
+   console.log(playerChoice);
+}
