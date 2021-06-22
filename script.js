@@ -28,5 +28,11 @@ const choices = {
 
 // Passing Player selection value and styling icons
 function select(playerChoice) {
-   console.log(playerChoice);
+   // Add 'selected' styling and player choice
+   switch (playerChoice) {
+     case 'rock':
+       playerRock.classList.add('selected');
+       playerChoiceEl.textContent = ' --- Rock';
+       break;
+   }
 }
