@@ -34,5 +34,9 @@ function select(playerChoice) {
        playerRock.classList.add('selected');
        playerChoiceEl.textContent = ' --- Rock';
        break;
+     case 'paper':
+       playerPaper.classList.add('selected');
+       playerChoiceEl.textContent = ' --- Paper';
+       break;    
    }
 }
