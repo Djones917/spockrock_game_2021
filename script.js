@@ -37,6 +37,11 @@ function select(playerChoice) {
      case 'paper':
        playerPaper.classList.add('selected');
        playerChoiceEl.textContent = ' --- Paper';
-       break;    
+       break; 
+     case 'scissors':
+       playerScissors.classList.add('selected');
+       playerChoiceEl.textContent = ' --- Scissors';
+       break;      
+       
    }
 }
