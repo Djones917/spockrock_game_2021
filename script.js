@@ -35,12 +35,12 @@ function resetSelected() {
 
 // Call function to process a turn
 function checkResult() {
-
+   resetSelected();
 }
 
 // Passing Player selection value and styling icons
 function select(playerChoice) {
-  resetSelected();
+  checkResult();
    // Add 'selected' styling and player choice
    switch (playerChoice) {
      case 'rock':
