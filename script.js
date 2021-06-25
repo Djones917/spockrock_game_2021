@@ -33,6 +33,11 @@ function resetSelected() {
   });
 }
 
+// Call function to process a turn
+function checkResult() {
+
+}
+
 // Passing Player selection value and styling icons
 function select(playerChoice) {
   resetSelected();
