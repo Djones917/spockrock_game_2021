@@ -79,6 +79,13 @@ function displayComputerChoice() {
    }
 }
 
+
+// Check result, increase scores, update resultText
+function updateScore() {
+   
+}
+
+
 // Call function to process a turn
 function checkResult() {
    resetSelected();
@@ -88,7 +95,7 @@ function checkResult() {
 
 // Passing Player selection value and styling icons
 function select(playerChoice) {
-  checkResult();
+  checkResult(playerChoice);
    // Add 'selected' styling and player choice
    switch (playerChoice) {
      case 'rock':
