@@ -81,16 +81,17 @@ function displayComputerChoice() {
 
 
 // Check result, increase scores, update resultText
-function updateScore() {
-   
+function updateScore(playerChoice) {
+   console.log(playerChoice, computerChoice);
 }
 
 
 // Call function to process a turn
-function checkResult() {
+function checkResult(playerChoice) {
    resetSelected();
    computerRandomChoice();
    displayComputerChoice();
+   updateScore(playerChoice);
 }
 
 // Passing Player selection value and styling icons
