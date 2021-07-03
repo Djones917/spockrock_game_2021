@@ -87,7 +87,7 @@ function updateScore(playerChoice) {
      resultText.textContent = "It's a tie!";
    } else {
      const choice = choices[playerChoice];
-     console.log(choice);
+     console.log(choice.defeats.indexOf(computerChoice));
    }
 }
 
