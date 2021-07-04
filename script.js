@@ -81,13 +81,11 @@ function displayComputerChoice() {
 
 
 // Check result, increase scores, update resultText
-function updateScore(playerChoice) {
-   console.log(playerChoice, computerChoice);
+function updateScore(playerChoice) {   
    if (playerChoice === computerChoice) {
      resultText.textContent = "It's a tie!";
    } else {
-     const choice = choices[playerChoice];
-     console.log(choice.defeats.indexOf(computerChoice));
+     const choice = choices[playerChoice];     
      if (choice.defeats.indexOf(computerChoice) > -1) {
        resultText.textContent = "You Won!";
        playerScoreNumber++;
